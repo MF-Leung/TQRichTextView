@@ -40,7 +40,7 @@
     {
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:run.originalText]];
     }else if (run.type==richTextPhoneType) {
-        NSLog(@"打电话");
+        NSLog(@"打电话!!!!");
     }
 //    NSLog(@"%@",run.originalText);
 }
